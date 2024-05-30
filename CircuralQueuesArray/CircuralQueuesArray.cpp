@@ -41,6 +41,7 @@ public:
             else
                 REAR = REAR + 1;
         }
+        queue_array[REAR] = num; //menambahkan elemen ke antrian
     }
 };
 
